@@ -1,0 +1,111 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.innerright,
+label {
+    color: rgb(16, 170, 16);
+    font-weight: bold;
+}
+.container.inner.head{
+    font-size: 120px;
+}
+
+.container,
+.row
+ {
+    margin: auto;
+}
+
+
+input {
+    margin-left: 20px;
+}
+
+.leftinner {
+    float: left;
+    width: 25%;
+}
+
+.rightinner {
+    float: right;
+    width: 75%;
+}
+
+.innerright {
+    background-color: antiquewhite;
+}
+.greenhead{
+    background-color: #c6de87;
+    color: black;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.greenbtn {
+    background-color: beige;
+    color: black;
+    width: 95%;
+    height: 40px;
+    margin-top: 8px;
+    transition: all 0.5 ease-in;
+}
+.greenbtn:hover {
+    background-color: gray;
+}
+.greenbtn,
+a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+th {
+    background-color: greenyellow;
+    color: black;
+    
+}
+td {
+    background-color: darkseagreen;
+    color: black;
+}
+td,
+a {
+    color: black;
+}
+.la {
+    margin-right: 650px;
+}
+label {
+    margin-left: 50px;
+    padding-Top: 10px;
+    text-align: left; 
+    font-size: 18px;           
+    padding-bottom: 0px; 
+    color: rgb(51, 51, 51);  
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.ph {
+    width: 75%;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+input[type=pasword]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+}
+body {
+    font-family: 'Roboto';
+}
+::placeholder {
+    color: rgb(189, 184, 184);
+    font-style: italic;
+    font-size: 14px;
+}
